@@ -8,6 +8,21 @@
   padding: 0 0.5rem;
 }
 
+.board {
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: repeat(9, 30px);
+  align-items: center;
+  justify-content: center;
+  border: 5px #000;
+}
+
+.number {
+  width: 30px;
+  height: 30px;
+  background: url('../../assets/images/icons.png') no-repeat;
+}
+
 .main {
   display: flex;
   flex: 1;
